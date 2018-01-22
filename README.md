@@ -1,4 +1,4 @@
-# Code and data for Eriksen and Etserodt (2018)
+# Code and data for Eriksen and Etzerodt (2018)
 
  This page contains the code and data for the paper by Eriksen and Etzerodt (2018). 
  
