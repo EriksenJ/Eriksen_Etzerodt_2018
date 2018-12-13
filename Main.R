@@ -36,7 +36,7 @@
 #### Examples 
     
     source("Code/Example_Fixed_Effects.R")
-    source("Code/Reg_BoxJenkins_Example.R")
+    source("Code/Reg_BoxJenkin_Example.R")
     
     
         

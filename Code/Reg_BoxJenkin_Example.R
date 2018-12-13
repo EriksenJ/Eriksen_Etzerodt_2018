@@ -90,21 +90,3 @@
 
 
 
-
-## Test for serial correlation in model specification ----
-    
-    # We can use the Breusch-Godfrey test to test for serial correlation in panels. 
-    
-    p_model <- plm(growth ~ Inflation + Investment + 
-                       macrocorp, data = pdat, model = "pooling")
-    p_model_1 <- plm(growth ~ lag(growth) + Inflation + 
-                         Investment + macrocorp, data = pdat, 
-                     model = "pooling", effect = "time")
-    p_model_2 <- plm(growth ~ lag(growth) + lag(growth, 2) + Inflation + 
-                         Investment + macrocorp, data = pdat, 
-                     model = "pooling", effect = "time")
-    pbgtest(p_model)
-    pbgtest(p_model_1)
-    pbgtest(p_model_2)
-    
-    
