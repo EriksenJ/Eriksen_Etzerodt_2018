@@ -4,7 +4,7 @@
 
  The project is developed in R with the exception of unit root tests run in Stata. To run all R files, run the file "Main.R". "Unit_root_test.do" must be run separately. 
 
- In addition, the project contains the used and simulated datasets from the paper. The datasets can be found in the folder "Data". Plots appearing in the project can be found in the folder "Plot". Tables with Summary Statistics in "Output". 
+ In addition, the project contains the used and simulated datasets from the paper. The datasets can be found in the folder "Data". Plots appearing in the paper can be found in the folder "Plot". Tables with summary statistics in "Output". 
  
  The project consists of the following code files that should be run in the indicated order: 
  - Main.R
