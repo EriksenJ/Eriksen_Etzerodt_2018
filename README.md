@@ -1,13 +1,8 @@
 # Code and data for Eriksen and Etzerodt (2018): Time-Series Cross-Section Analysis for Komparativ Politisk Økonomi 
 
- This page contains the code and data for Eriksen and Etzerodt (2018). 
+This page contains the replication code and data for Eriksen and Etzerodt (2018). 
 
- The project is developed in R with the exception of unit root tests run in Stata. To run all R files, run the file "Main.R". "Unit_root_test.do" must be run separately. 
-
- In addition, the project contains the used and simulated datasets from the paper. The datasets can be found in the folder "Data". Plots appearing in the paper can be found in the folder "Plot". Tables with summary statistics in "Output". 
- 
- The project consists of the following code files that should be run in the indicated order: 
- - Main.R
+The project consists of the following code that must be run in the indicated order: 
  - Settings.R
  - Libraries.R
  - Data_final.R
@@ -19,8 +14,6 @@
  - Reg_BoxJenkins_Example.R
  - Unit_root_test.do
 
- To run the code, start with opening the RProject file "EE_2018.RProject". This will set the working directory for your computer. Then, run the R file "Main.R". The file loads the data into R, and then runs the code for the paper by parts. 
- 
- A single Stata .do file contains code for running IPS unit root tests. 
+The project code is written in R with the exception of the file `Unit_root_test.do`. All R code can be run in the correct order from the master file `Main.R`. The `Unit_root_test.do` file must be run separately after the previous code has run. To ensure that the `Main.R` master file can locate the data and other code files, it is possible to run the code from the included RProject "EE_2018.RProject".  
  
  
